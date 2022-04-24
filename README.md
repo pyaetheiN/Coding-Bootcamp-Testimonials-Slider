@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/responsive-testimonial-slider-using-flexbox-sass-and-javascript-SyR0j4mS5
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-testimonials-slider-using-flexbox-sass-and-javascript-Hy2eBS7r9
 - Live Site URL: https://pyaethein.github.io/Coding-Bootcamp-Testimonials-Slider/
 
 ## My process
