@@ -6,19 +6,14 @@
           box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   font-size: 16px;
   font-family: 'Inter', sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   min-height: 100vh;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   background-image: url("../images/pattern-curve.svg");
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -37,8 +32,16 @@ body {
   }
 }
 
-img {
-  max-width: 100%;
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .testimonials {

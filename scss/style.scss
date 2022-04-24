@@ -7,13 +7,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+img{
+  max-width: 100%;
+}
 body{
   font-size: 16px;
   font-family: 'Inter', sans-serif;
-  display: flex;
   min-height: 100vh;
-  align-items: center;
-  justify-content: center;
   background-image: url("../images/pattern-curve.svg");
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -26,8 +26,10 @@ body{
     background-size: 50%;
   }
 }
-img{
-  max-width: 100%;
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .testimonials{
