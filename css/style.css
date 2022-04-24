@@ -21,14 +21,19 @@ body {
           justify-content: center;
   background-image: url("../images/pattern-curve.svg");
   background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100%;
+  background-position: bottom left;
+  background-size: 80%;
 }
 
 @media screen and (min-width: 968px) {
   body {
-    margin-bottom: 9.375rem;
-    overflow-y: hidden;
+    background-size: 50%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  body {
+    background-size: 70%;
   }
 }
 
@@ -83,7 +88,7 @@ img {
 
 @media screen and (min-width: 968px) {
   .testimonials__images {
-    margin-left: -10%;
+    margin-left: -8.4375rem;
   }
 }
 
